@@ -5,9 +5,75 @@ Description: Thème Planty2 boissons énergisantes à base de plantes.
 Author: camille
 Author URI: https://wordpress.org/
 Template: oceanwp
-Version: 1.9
+Version: 2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: Planty2, boissons énergisantes
 Text Domain: twentytwentyone
 */
+
+
+
+    /* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+ 
+/* Chrome */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+	margin:0;
+}
+ 
+/* Opéra*/
+input::-o-inner-spin-button,
+input::-o-outer-spin-button { 
+	-o-appearance: none;
+	margin:0
+}
+
+.quantite {
+    padding: 20px;
+  }
+
+  input {
+    width: 39px;
+    height: 59px;
+    
+  }
+/* pour masque le button d envoie */
+  #wpforms-submit-208 {
+    visibility: hidden;
+  }
+
+  #wpforms-submit-196 {
+    visibility: hidden;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+    padding: 20px;
+  }
+
+  .formulaire-avec-image {
+    background-image: url('C:/MAMP/htdocs/planty2/img/Group 16.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px; /* Ajustez selon vos besoins */
+}
+
+<style>
+  .centrer-input {
+    text-align: center;
+    margin-top: 20px; /* Ajustez selon vos besoins pour le centrage vertical */
+  }
+
+ /* .value{
+  padding: 15px;
+ }
+
+ input {
+  padding: 10px; */
+/* } */
