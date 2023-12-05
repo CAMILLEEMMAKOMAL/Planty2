@@ -34,13 +34,14 @@ input::-o-outer-spin-button {
 }
 
 .quantite {
-    padding: 20px;
+  justify-content: center;
+  display: flex;
   }
 
   input {
     width: 39px;
     height: 59px;
-    
+    padding: 10px;
   }
 /* pour masque le button d envoie */
   #wpforms-submit-208 {
@@ -51,24 +52,22 @@ input::-o-outer-spin-button {
     visibility: hidden;
   }
 
-  input[type="number"] {
-    -moz-appearance: textfield;
-    padding: 20px;
-  }
+
 
   .formulaire-avec-image {
     background-image: url('C:/MAMP/htdocs/planty2/img/Group 16.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    padding: 20px; /* Ajustez selon vos besoins */
+    padding: 20px; /* Ajustez selon  besoins */
 }
 
-<style>
+
   .centrer-input {
     text-align: center;
-    margin-top: 20px; /* Ajustez selon vos besoins pour le centrage vertical */
+    margin-top: 20px; /* Ajustez selon besoins pour le centrage vertical */
   }
+
 
  /* .value{
   padding: 15px;
